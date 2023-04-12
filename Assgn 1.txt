@@ -1,0 +1,106 @@
+1. In the below elements which of them are values or an expression? eg:- values can be
+integer or string and expressions will be mathematical operators.
+*
+&#39;hello&#39;
+-87.8
+-
+/
++
+6
+Ans. Here are the values and expressions in the given elements:
+
+* - expression (multiplication operator)
+'hello' - value (string)
+-87.8 - value (float)
+- - expression (subtraction operator)
+/ - expression (division operator)
++ - expression (addition operator)
+6 - value (integer)
+
+2. What is the difference between string and variable?
+Ans. A Variable is a store of information, and a String is a type of information you would store in a Variable. A String is usually words, enclosed with "" Eg String x ="Welcome to SoloLearn" X is the Variable, and we declared it as a String, use the single = to assign the text to it.
+
+3. Describe three different data types.
+Ans. 1. Numeric Data Type
+Python numeric data type is used to hold numeric values like;
+
+int - holds signed integers of non-limited length.
+long- holds long integers(exists in Python 2.x, deprecated in Python 3.x).
+float- holds floating precision numbers and it’s accurate up to 15 decimal places.
+complex- holds complex numbers.
+#create a variable with integer value.
+a=100
+print("The type of variable having value", a, " is ", type(a))
+
+#create a variable with float value.
+b=10.2345
+print("The type of variable having value", b, " is ", type(b))
+
+#create a variable with complex value.
+c=100+3j
+print("The type of variable having value", c, " is ", type(c))
+
+ 2. String Data Type
+The string is a sequence of characters. Python supports Unicode characters. Generally, strings are represented by either single or double-quotes.
+
+a = "string in a double quote"
+b= 'string in a single quote'
+print(a)
+print(b)
+
+# using ',' to concatenate the two or several strings
+print(a,"concatenated with",b)
+
+#using '+' to concate the two or several strings
+print(a+" concated with "+b)
+
+3.  List Data Type
+The list is a versatile data type exclusive in Python.list is an ordered sequence of some data written using square brackets([]) and commas(,).
+#list of having only integers
+a= [1,2,3,4,5,6]
+print(a)
+
+#list of having only strings
+b=["hello","john","reese"]
+print(b)
+
+#list of having both integers and strings
+c= ["hey","you",1,2,3,"go"]
+print(c)
+
+4. What is an expression made up of? What do all expressions do?
+5. This assignment statements, like spam = 10. What is the difference between an
+expression and a statement?
+Ans. A statement in Python is not evaluated for some results. An expression in Python is evaluated for some results. The execution of a statement changes the state of the variable. The expression evaluation does not result in any state change.
+
+
+6. After running the following code, what does the variable bacon    contain?
+ bacon = 22
+ bacon + 1
+Ans: 
+ bacon = 22
+ bacon + 1
+Output : 23
+ 
+7. What should the values of the following two terms be?
+'spam' + 'spamspam'
+'spam' * 3
+Ans.:'spam' + 'spamspam'
+'spamspamspam'
+
+'spam' * 3
+'spamspamspam'
+
+8. Why is eggs a valid variable name while 100 is invalid?
+Ans: eggs a valid variable name while 100 is invalid Because variable names cannot begin with a number.
+
+9. What three functions can be used to get the integer, floating-point number, or string
+version of a value?
+Ans. The int() , float() , and str( ) functions will evaluate to the integer, floating-point number, and string versions of the value passed to them.
+
+10. Why does this expression cause an error? How can you fix it?
+'I have eaten '+ 99 + 'burritos'.
+Ans. This expression couse an error becouse we can only concatenate str (not "int") to str. Yes we fix it to convert int to str..
+'I have eaten '+ ' 99 '+ 'burritos.'
+Output:I have eaten 99 burritos.
+ 
